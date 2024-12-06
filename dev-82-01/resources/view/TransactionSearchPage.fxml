@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: azure;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.TransactionSearchPageController">
+   <children>
+      <Label layoutX="50.0" layoutY="25.0" prefHeight="30.0" prefWidth="436.0" style="-fx-font-weight: bold;" text="Search Transactions / Scheduled Transactions" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ScrollPane fx:id="TransactionSearchScrollPane" layoutX="50.0" layoutY="175.0" prefHeight="400.0" prefWidth="400.0" />
+      <Button layoutX="259.0" layoutY="110.0" mnemonicParsing="false" onAction="#searchScheduledTransactions" prefHeight="30.0" prefWidth="190.0" style="-fx-background-color: violet; -fx-font-weight: bold;" text="🔍 Search SCHEDULED Transactions">
+         <font>
+            <Font size="10.0" />
+         </font></Button>
+      <Label layoutX="196.0" layoutY="160.0" prefHeight="17.0" prefWidth="30.0" text="Deposit" textAlignment="CENTER">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="160.0" prefHeight="17.0" prefWidth="38.0" text="Payment" textAlignment="CENTER">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="160.0" prefHeight="17.0" prefWidth="66.0" text="Name/Description" textAlignment="CENTER">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TransactionSearchField" layoutX="50.0" layoutY="65.0" prefHeight="30.0" prefWidth="400.0" promptText="Enter Transaction Name..." />
+      <Button layoutX="51.0" layoutY="110.0" mnemonicParsing="false" onAction="#searchTransactions" prefHeight="30.0" prefWidth="190.0" style="-fx-background-color: cadetblue; -fx-font-weight: bold;" text="🔍 Search TRANSACTIONS">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Label layoutX="237.0" layoutY="160.0" prefHeight="17.0" prefWidth="80.0" text="Date/Day of Month" textAlignment="CENTER">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="95.0" prefHeight="17.0" prefWidth="257.0" text="Two Search Choices: Transaction or Scheduled Transaction" textAlignment="CENTER">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="117.0" prefHeight="17.0" prefWidth="38.0" style="-fx-text-fill: red; -fx-font-weight: bold;" text="Pick One!" textAlignment="CENTER">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

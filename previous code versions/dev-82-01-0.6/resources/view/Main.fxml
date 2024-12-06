@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox fx:id="mainBox" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: darkblue;">
+         <children>
+            <Button layoutX="25.0" layoutY="25.0" mnemonicParsing="false" onAction="#loadHomePageOp" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: lightgrey; -fx-font-weight: bold;" text="Home" />
+            <Button layoutX="25.0" layoutY="80.0" mnemonicParsing="false" onAction="#goToAccountPageOp" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: pink; -fx-font-weight: bold;" text="Accounts" />
+            <Button layoutX="25.0" layoutY="190.0" mnemonicParsing="false" onAction="#goToCreateTransactionOp" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: lightblue; -fx-font-weight: bold;" text="Enter Transactions" />
+            <Button layoutX="25.0" layoutY="135.0" mnemonicParsing="false" onAction="#goToTransactionTypesOp" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: yellowgreen; -fx-font-weight: bold;" text="Transaction Types" />
+            <Button layoutX="25.0" layoutY="245.0" mnemonicParsing="false" onAction="#goToTransactionPageOp" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: cadetblue; -fx-font-weight: bold;" text="Transactions" />
+            <Button layoutX="25.0" layoutY="300.0" mnemonicParsing="false" onAction="#goToCreateScheduledTransaction" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: salmon; -fx-font-weight: bold;" text="Enter Scheduled Trans.." />
+            <Button layoutX="25.0" layoutY="355.0" mnemonicParsing="false" onAction="#goToScheduledTransaction" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: violet; -fx-font-weight: bold;" text="Scheduled Transactions" />
+         </children></AnchorPane>
+   </children>
+</HBox>

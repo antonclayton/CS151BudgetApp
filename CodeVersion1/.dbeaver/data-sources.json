@@ -1,0 +1,77 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-192e3d470fd-7bbd7ad84e71e64b": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "transactions.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\anton\\Documents\\java-dev\\CS151 eclipse ws\\CodeVersion1\\src\\application\\database\\transactions.db",
+				"url": "jdbc:sqlite:C:\\Users\\anton\\Documents\\java-dev\\CS151 eclipse ws\\CodeVersion1\\src\\application\\database\\transactions.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-193190bc42f-5caedd1705adb08e": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "scheduledTransactions.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\anton\\Documents\\java-dev\\CS151 eclipse ws\\CodeVersion1\\src\\application\\database\\scheduledTransactions.db",
+				"url": "jdbc:sqlite:C:\\Users\\anton\\Documents\\java-dev\\CS151 eclipse ws\\CodeVersion1\\src\\application\\database\\scheduledTransactions.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-1931d75c69f-358d1eb3d30842c5": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "accounts.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\anton\\Documents\\java-dev\\CS151 eclipse ws\\CodeVersion1\\src\\application\\database\\accounts.db",
+				"url": "jdbc:sqlite:C:\\Users\\anton\\Documents\\java-dev\\CS151 eclipse ws\\CodeVersion1\\src\\application\\database\\accounts.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		},
+		"sqlite_jdbc-1931d76510d-5d7f25b16028769a": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "transactionTypes.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\anton\\Documents\\java-dev\\CS151 eclipse ws\\CodeVersion1\\src\\application\\database\\transactionTypes.db",
+				"url": "jdbc:sqlite:C:\\Users\\anton\\Documents\\java-dev\\CS151 eclipse ws\\CodeVersion1\\src\\application\\database\\transactionTypes.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
